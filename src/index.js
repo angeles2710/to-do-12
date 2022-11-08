@@ -9,6 +9,8 @@ import Task from "./todo/Task";
 import NoPage from "./layout/NoPage";
 import Chat from "./chat/Chat";
 import LaunchesApp from "./apis/LaunchesApp";
+import ToDoN from "./todo/ToDoN";
+import Opc1 from "./todo/Opc1";
 
 import "./styles.css";
 
@@ -23,6 +25,8 @@ function App() {
           <Route path="task" element={<Task />} />
           <Route path="chat" element={<Chat />} />
           <Route path="launchesApp" element={<LaunchesApp />} />
+          <Route path="todoN" element={<ToDoN />} />
+          <Route path="opc1" element={<Opc1 />} />          
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
