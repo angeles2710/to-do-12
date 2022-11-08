@@ -17,6 +17,10 @@ export default function Layout() {
         <Link to="/chat">Chat</Link>
         <span> </span>
         <Link to="/launchesapp">LaunchesApp</Link>
+        <span> </span>
+        <Link to="/todon">ToDoN</Link>
+        <span> </span>
+        <Link to="/opc1">Opc1</Link>
       </nav>
 
       <Outlet />
